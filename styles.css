@@ -5,17 +5,28 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-#navbar { background-color: black  ;
-   
- } 
+.navbar{
+    padding-right: 0;
+    background-color: #00C6FF;
+}
+
  
- #diff{
-  color: red;
+    #cen1,#cen2,#cen3{
+      text-align: center;
+      
+    }
+    
+
+ 
+ 
+ 
+
  }
- h1 {
+ #hr{
    text-align: center;
   margin-bottom: 15px;
   color: blue;
+  size: 3px;
   
 }
 p {
@@ -37,7 +48,7 @@ p {
 #xl1,#xl2,#xl3{
   width: 130px;
   height: 40px;
-  margin-left: 50%;
+  margin-left: 43%;
   text-align: center;
   font-size: 25px;
   color: black;
@@ -48,25 +59,6 @@ p {
 div{
   padding: 0px;
 }
-
- 
- 
- #h1 {
-    width: 40px;
-    height: 40px;
-    color: red;
-    
-   }
- #diff {
-  padding-top: 25px;
-  color: #131A88;
-
-}
- .navbar-default .navbar-collapse {
-        border-color: white;
-        background-color: #e87373;
-     } 
-
 #diff{ /* Restaurant name */
   font-family: 'Noto Serif', serif;
   color: #557c3e;
@@ -77,158 +69,57 @@ div{
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  float: left;
+ 
+ 
+
+   
+ #diff {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  color:black;
+
+  
+
+
 }
+ .navbar-default .navbar-collapse {
+        border-color: white;
+        background-color: #e87373;
+     } 
+
+
 .navbar-nav{
   text-decoration-color: white;
 }
-@media screen and (min-width: 1800px){
-.navbar-nav{
-  font-size: 31px;
-   font-family: 'IBM Plex Mono', monospace;
-  margin-left: 1000px;
-  color: white;
-  
- }
- .feather {
-  width: 40px;
-  height: 40px;
-  stroke: black;
-  stroke-width: 1.5;
-  stroke-linecap: square;
-  stroke-linejoin: square;
-  fill: white;
-  margin-left: 25%;
+@media screen and (min-width: 1025px){
 
+  
 }
  
 }
-@media screen and (min-width: 1550px) and (max-width: 1799px){
- .navbar-nav{
-  font-size: 25px;
-   font-family: 'IBM Plex Mono', monospace;
-   margin-left: 900px;
-  }
-  .feather {
-  width: 50px;
-  height: 50px;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-}
-}
-@media screen and (min-width: 1350px) and (max-width: 1549px){
- .navbar-nav{
-  font-size: 25px;
-   font-family: 'IBM Plex Mono', monospace;
-   margin-left: 430px;
-  }
-  .feather {
-  width: 50px;
-  height: 50px;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-}
-  
-}
-@media screen and (min-width: 1025px) and (max-width: 1349px){
- .navbar-nav{
-  font-size: 25px;
-   font-family: 'IBM Plex Mono', monospace;
-   margin-left: 100px;
-  }
-  .feather {
-  width: 50px;
-  height: 50px;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-}
-}
-@media screen and (min-width: 992px) and (max-width: 1024px){
- 
 
-.feather {
-  width: 50px;
-  height: 50px;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-}
-}
-@media screen and (min-width: 760px) and (max-width: 991px){
-  #diff{
-    font-size: 50px;
-  }
-  }
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  
   .navbar-toggler-icon{
   height: 50px;
   width: 50px;
 
  }
- #h1 {
-    width: 40px;
-    height: 40px;
-    
-    
-   }
-   .feather {
-  width: 50px;
-  height: 50px;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-}
-  
 
 }
-@media screen and (min-width: 500px) and (max-width: 760px){
-  #diff{
-    font-size: 40px;
-  }
-   .navbar-toggler-icon{
-  height: 40px;
-  width: 40px;
-
- }
- #h1 {
-    width: 30px;
-    height: 30px;
-    color: red;
-    
-    
-   }
-   .feather {
-  width: 20px;
+@media screen and (max-width: 768px){
+.navbar-toggler-icon{
   height: 20px;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-  margin-right: 10px;
+  width: 20px;
 }
+ #cen1,#cen2,#cen3{
+   border: 1px solid yellow;
+ }
+ #diff{
+  font-size: 35px;
+ }
+ }
 
-}
-@media screen and (max-width: 499px){
-  #diff{
-    font-size: 21px;
-  }
-  #h1 {
-    width: 40px;
-    height: 40px;
-    
-    
-   }
-}
 
